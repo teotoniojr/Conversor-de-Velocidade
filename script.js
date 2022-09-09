@@ -16,6 +16,6 @@ function Converter() {
   milhaHora.innerHTML = resultadoMilhaHora
 
   var porcentagemLuz = document.getElementById("valorConvertidoPorcentagemLuz")
-  var resultadoPorcentagemLuz = "Essa velocidade é equivalente a " + valorPorcentagemLuz.toFixed(5) + "%"
+  var resultadoPorcentagemLuz = "Essa velocidade é equivalente a " + valorPorcentagemLuz.toFixed(5) + "% da velocidade da luz"
   porcentagemLuz.innerHTML = resultadoPorcentagemLuz
 }
